@@ -58,10 +58,16 @@
   font-weight: normal;
 }
 
+.router-link-active {
+  color: red;
+}
+
+.router-link-exact-active {
+  color: black;
+}
+
 body {
   min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
   transition:
     color 0.5s,
     background-color 0.5s;
